@@ -1,6 +1,7 @@
 /*Header and footer, same on every pages*/
 body{
-	background-image:url("../images/crossline-dots/crossline-dots/crossline-dots.png");
+	/* background-image:url("../images/crossline-dots/crossline-dots/crossline-dots.png"); */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/wallpapers.jpg");
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 34px;
@@ -58,7 +59,16 @@ h1{
 }
 
 i{
-	color:gray
+	color:gray;
+	font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    line-height: calc(33px - 4px);
+    border: 2px solid gray;
+	border-radius: 50%;
+	padding:5px;
 }
 
 .social-icons{
