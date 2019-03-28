@@ -15,10 +15,11 @@ body{
 }  
 		  
 #link {
-	border-right: 1px solid lightgray;
+	/* border-right: 1px solid lightgray; */
 	font-weight: 700;
 	width: 90px;
 	color:orange;
+	float:right;
 }
 h1{
 	font-family: Georgia, Times, "Times New Roman", serif;
