@@ -1,7 +1,7 @@
 # Portfolio
 Deploy Link: https://davidvo1990.github.io/Portfolio/
 
-###Overview
+### Overview
 
 Name: David Vo
 
@@ -17,7 +17,7 @@ Name: David Vo
 
   * Link to the code on GitHub
 
-#### Design
+### Design
 
 * Mobile-friendliness: portfolio page is still readable on different screen sizes
 
