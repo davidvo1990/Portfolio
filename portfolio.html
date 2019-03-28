@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link rel="stylesheet" href="assests/css/style.css" type="text/css">
+
+</head>
+
+<body class="jumbotron p-2">
+
+  <!--Nav bar here-->
+  <div id="container">
+    <div class="row justify-content-center">
+      <div class="col-xs-12 col-sm-12 col-md-11 col-lg-11">
+
+        <nav class="navbar p-0 navbar-expand-sm bg-light navbar-light sticky-top justify-content-between">
+
+          <div class="row">
+            <a id="navhead" class="navbar-brand bg-warning text-center text-white p-4" href="index.html">David Vo</a>
+            <div class="social-icons">
+
+              <a href="Email to:davidvo1990@gmail.com" class="button button-icon"
+                title="email to:davidvo1990@gmail.com">
+                <i class="fa fa-envelope pr-1" onclick=event.preventDefault()></i>
+              </a>
+
+              <a href="Phone #: 612-xxx-xxxx" class="button button-icon" title="phone #: 612-xxx-xxxx">
+                <i class="fa fa-phone pr-1" onclick=event.preventDefault()></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/david-vo-611448179/" class="button button-icon"
+                title="linkedin: David Vo">
+                <i class="fa fa-linkedin-square pr-1"></i>
+              </a>
+
+              <a href="https://github.com/davidvo1990" class="button button-icon" title="github: David Vo">
+                <i class="fa fa-github-square pr-1"></i>
+              </a>
+
+              <!-- <a href="https://facebook.com/" class="button button-icon" title="facebook:">
+            <i class="fa fa-facebook-square"></i>
+          </a> -->
+
+              <!-- <a href="https://twitter.com/" class="button button-icon" title="twitter: ">
+            <i class="fa fa-twitter-square"></i>
+          </a> -->
+
+            </div>
+          </div>
+
+
+          <ul class="navbar-nav p-1">
+            <li class="nav-item ">
+              <a id="link" class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item ">
+              <a id="link" class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a id="link" class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+  <!--Main content of portfolio-->
+
+  <div id="main" class="jumbotron mt-5 bg-white container overflow-auto ">
+    <div class="row justify-content-center">
+      <div class="col-xs-12 col-sm-12 col-md-11 col-lg-11">
+
+        <div class="row border-bottom border-dark justify-content-between">
+          <h1 class=" text-warning">Portfolio</h1>
+
+          <button class="btn btn-secondary" type="button" onclick="location.href='resume.html';">Resume</button>
+        </div>
+        <!-- content of main -->
+
+
+        <div id="portblock" class="float-left position-relative">
+          <img class="img-thumbnail hover" id="portimg" src="assests/images/hangman.jpg" alt="Word Guess" onclick="location.href='https://davidvo1990.github.io/Word-Guess-Game/';">
+          <div class="h3 position-absolute bg-warning p-3 text-light mt-0 text-center bt-0 hover" id="port" onclick="location.href='https://github.com/davidvo1990/Word-Guess-Game.git';">Word Guess</div>
+        </div>
+
+        <div id="portblock" class="float-left position-relative">
+          <img class="img-thumbnail hover" id="portimg" src="assests/images/star-wars.jpg" alt="RPG Game" onclick="location.href='https://davidvo1990.github.io/Star-Wars/';">
+          <div class="h3 position-absolute bg-warning p-3 text-light mt-0 text-center bt-0 hover" id="port" onclick="location.href='https://github.com/davidvo1990/Star-Wars.git';">Star-Wars Game</div>
+        </div>
+
+        <div id="portblock" class="float-left position-relative">
+          <img class="img-thumbnail hover" id="portimg" src="assests/images/triviagame.jpg" alt="Trivia Game" onclick="location.href='https://davidvo1990.github.io/TriviaGame-TimedQuestions/';">
+          <div class="h3 position-absolute bg-warning p-3 text-light mt-0 text-center bt-0 hover" id="port" onclick="location.href='https://github.com/davidvo1990/TriviaGame-TimedQuestions.git';">Trivia Game</div>
+        </div>
+
+        <div id="portblock" class="float-left position-relative">
+          <img class="img-thumbnail hover" id="portimg" src="assests/images/movie.jpg" alt="M&B" onclick="location.href='https://davidvo1990.github.io/Group1/';">
+          <div class="h3 position-absolute bg-warning p-3 text-light mt-0 text-center bt-0 hover" id="port" onclick="location.href='https://github.com/davidvo1990/Group1.git';">M&B</div>
+        </div>
+
+        <div id="portblock" class="float-left position-relative">
+          <img class="img-thumbnail hover" id="portimg" src="assests/images/rps.jpg" alt="Rock Paper Scissors" onclick="location.href='https://davidvo1990.github.io/RPS-Multiplayer/';">
+          <div class="h3 position-absolute bg-warning p-3 text-light mt-0 text-center bt-0 hover" id="port" onclick="location.href='https://github.com/davidvo1990/RPS-Multiplayer.git';">Rock Paper Scissors</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center flex-column align-self-end ">
+      <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+
+        <footer class="p-2 text-center fixed-bottom bg-dark text-white">
+          Copyright &copy;
+        </footer>
+
+
+
+</body>
+
+</html>
